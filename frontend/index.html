@@ -932,8 +932,8 @@
     </div>
 
     <script>
-        // API Base URL
-        const API_URL = 'http://localhost:8000';
+        // API Base URL - Use same origin (works for both local and deployed)
+        const API_URL = window.location.origin;
 
         // State
         let currentPage = 1;
